@@ -4,13 +4,13 @@ export default {
   type: "document",
   fields: [
     {
-      name: "userName",
-      title: "User Name",
-      type: "string",
+      name: "postedBy",
+      title: "posted By",
+      type: "postedBy",
     },
     {
-      name: "image",
-      title: "Image",
+      name: "comment",
+      title: "Comment",
       type: "string",
     },
   ],
