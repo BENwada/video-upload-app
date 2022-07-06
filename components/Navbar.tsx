@@ -42,7 +42,7 @@ const Navbar = () => {
                   <Image
                     width={40}
                     height={40}
-                    className="rounded-full"
+                    className="rounded-full cursor-pointer"
                     src={userProfile.image}
                     alt="profile photo"
                   />
