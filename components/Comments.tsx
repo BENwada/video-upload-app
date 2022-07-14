@@ -52,7 +52,7 @@ const Comments = ({
                               layout="responsive"
                             />
                           </div>
-                          <div className="hidden xl:block">
+                          <div className="">
                             <p className="flex gap-1 items-center text-md font-bold text-primary lowercase">
                               {user.userName.replaceAll(" ", "")}
                               <GoVerified className="text-blue-400" />
@@ -63,6 +63,9 @@ const Comments = ({
                           </div>
                         </div>
                       </Link>
+                      <div>
+                        <p>{item.comment}</p>
+                      </div>
                     </div>
                   )
               )}
